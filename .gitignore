@@ -1,0 +1,7 @@
+venv/
+ffmpeg-8.1.2-essentials_build/
+*.exe
+*.mp4
+*.wav
+*.mid
+__pycache__/
