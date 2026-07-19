@@ -1,7 +1,22 @@
+# Ambiente virtual (é gigante e cada um gera o seu)
 venv/
-ffmpeg-8.1.2-essentials_build/
-*.exe
+__pycache__/
+*.pyc
+
+# Arquivos de mídia gerados/testados (pesados, não fazem sentido no git)
 *.mp4
 *.wav
 *.mid
-__pycache__/
+*.musicxml
+
+# PDFs de partitura e as pastas de página que o sheet_to_midi.py gera
+*.pdf
+*_paginas/
+*_pages/
+*_teaser.png
+page_*.png
+
+# Lixo de instalador/sistema que caiu na pasta sem querer
+InstallShield.log
+python-3.11.9-amd64.exe
+ffmpeg-*-essentials_build/
